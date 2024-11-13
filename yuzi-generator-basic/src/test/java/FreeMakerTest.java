@@ -43,7 +43,6 @@ public class FreeMakerTest{
         menuItems.add(menuItem2);
         dataModel.put("menuItems", menuItems);
 
-
         Writer out = new FileWriter("myweb.html");
 
         template.process(dataModel, out);
