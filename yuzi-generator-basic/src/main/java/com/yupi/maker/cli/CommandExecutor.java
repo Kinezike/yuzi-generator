@@ -1,9 +1,3 @@
-package com.yupi.maker.cli;
-
-
-import com.yupi.maker.cli.command.ConfigCommand;
-import com.yupi.maker.cli.command.GenerateCommand;
-import com.yupi.maker.cli.command.ListCommand;
 import picocli.CommandLine;
 
 @CommandLine.Command(name = "yuzi",mixinStandardHelpOptions = true)

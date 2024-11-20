@@ -1,6 +1,6 @@
-package com.yupi.maker.cli.command;
+package com.yupi.cli.command;
 
-import com.yupi.maker.model.MainTemplateConfig;
+import com.yupi.model.MainTemplateConfig;
 import picocli.CommandLine;
 
 import java.lang.reflect.Field;

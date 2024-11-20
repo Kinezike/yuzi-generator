@@ -1,4 +1,4 @@
-package com.yupi.maker.cli.pattern;
+package com.yupi.cli.pattern;
 
 public interface Command {
     void execute();
