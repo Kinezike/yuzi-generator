@@ -24,12 +24,13 @@ public class Meta {
     public static class FileConfig {
         private String inputRootPath;
         private String outputRootPath;
+        private String sourceRootPath;
         private String type;
-        private List<FilsInfo> files;
+        private List<FileInfo> files;
 
         @NoArgsConstructor
         @Data
-        public static class FilsInfo {
+        public static class FileInfo {
             private String inputPath;
             private String outputPath;
             private String type;
